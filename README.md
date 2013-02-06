@@ -1,4 +1,4 @@
-#Assembler in Python, converts Assembly to binary
+#Assembler in Python
 Runs in O(5n)
 
 Write an Assembler program that translates programs written in the
