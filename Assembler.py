@@ -8,11 +8,9 @@ filename = sys.argv[1]
 
 def main():
     a = prepare_file(filename)
-
     make_ltable(a)
     make_atable(a)
     make_ctable(a)
-
     results = translate(a)
     write_file(results)    
 
@@ -83,12 +81,10 @@ def make_ctable(a):
                 abit = set_abit(comp)
                 ctable[i] = first + abit + comp_table[comp] + dest_table[dest] + jump_table["null"]
 
-
 def write_file(a):
     name = filter_line(filename, op=".")
     name = name+".hack"
     file = open(name,'w')
-    print name, "name"
     for i in a:
         file.write(i+"\n")
     file.close()       
