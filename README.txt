@@ -1,5 +1,5 @@
 #Nand2Tetris
-#Assembler in Python
+#Assembler in Python, converts Assembly to binary
 #Runs in O(5n)
 
 Write an Assembler program that translates programs written in the
