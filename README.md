@@ -1,5 +1,5 @@
 #Assembler in Python
-Runs in O(5n)
+Runs in O(n)
 
 Write an Assembler program that translates programs written in the
 symbolic Hack assembly language into binary code that can execute on
