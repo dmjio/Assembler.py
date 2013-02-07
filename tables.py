@@ -10,7 +10,6 @@ jump_table = {
 }
 
 dest_table =  { 
-
     "null" : "000",
     "M" : "001",
     "D" : "010",
@@ -19,7 +18,6 @@ dest_table =  {
     "AM" : "101",
     "AD" : "110",
     "AMD" : "111"
-
 }
 
 predef_table = {
