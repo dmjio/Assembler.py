@@ -2,6 +2,7 @@
 from tables import *
 from helpers import *
 import sys
+import time
 
 atable, ltable, ctable = {}, {}, {} #initialize global tables
 filename = sys.argv[1]
@@ -90,6 +91,9 @@ def write_file(a):
     file.close()       
 
 if __name__ == "__main__":
+    t0 = time.time()
     main()
-             
+    print time.time()-t0
+
+    
       
